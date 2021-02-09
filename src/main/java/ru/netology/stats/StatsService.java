@@ -18,14 +18,14 @@ public class StatsService {
         int max = sales[0];
         int monthNumber = 0;
         int monthMax = 0;
-         for (int sale : sales) {
-             monthNumber += 1;
-             if (max <= sale) {
+        for (int sale : sales) {
+            monthNumber += 1;
+            if (max <= sale) {
                  max = sale;
                  monthMax = monthNumber;
-             }
+            }
          }
-         return monthMax;
+        return monthMax;
     }
     public int monthMin(int[] sales) {
         int min = sales[0];
