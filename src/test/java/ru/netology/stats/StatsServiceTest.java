@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class StatsServiceTest {
     @Test
-    void shouldSum () {
+    void shouldSum() {
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         StatsService service = new StatsService();
         int expected = 180;
@@ -15,7 +15,7 @@ class StatsServiceTest {
     }
 
     @Test
-    void shouldAverage () {
+    void shouldAverage() {
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         StatsService service = new StatsService();
         int expected = 15;
@@ -24,7 +24,7 @@ class StatsServiceTest {
     }
 
     @Test
-    void maxSales () {
+    void maxSales() {
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         StatsService service = new StatsService();
         int expected = 8;
@@ -33,7 +33,7 @@ class StatsServiceTest {
     }
 
     @Test
-    void minSales () {
+    void minSales() {
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         StatsService service = new StatsService();
         int expected = 9;
@@ -42,7 +42,7 @@ class StatsServiceTest {
     }
 
     @Test
-    void monthsBelowAverage () {
+    void monthsBelowAverage() {
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         StatsService service = new StatsService();
         int expected = 5;
@@ -51,7 +51,7 @@ class StatsServiceTest {
     }
 
     @Test
-    void monthsAboveAverage () {
+    void monthsAboveAverage() {
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         StatsService service = new StatsService();
         int expected = 5;
